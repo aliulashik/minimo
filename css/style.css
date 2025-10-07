@@ -1,0 +1,250 @@
+/* dwn fonts*/
+@font-face{
+ src: url(../fonts/ubuntu/Ubuntu-Light.ttf);
+ font-family:Ubuntu-Light.ttf ;
+}
+/* dwn fonts*/
+/*common css start*/
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262  ;
+}
+.width100 {
+    width: 100%;
+}
+/*common css end*/
+
+/*header start-----------*/
+header {
+    padding: 60px 0;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo {
+    margin-top: 10px;
+    float: left;
+    width: 15%;
+   /* border: solid 1px;*/
+
+}
+.logo a {}
+.logo_img{}
+
+.manu{
+    float: right;
+    width: 70%;
+    /*border: solid 1px;*/
+}
+.manu ul {
+    float: right;
+}
+.manu ul li{
+    list-style: none;
+     float: left;
+}
+.manu ul li a{
+    text-decoration: none;
+    margin: 0 40px;
+    display: inline-block;
+    color:#626262;
+    text-transform: uppercase;
+    border-bottom: solid 1px transparent; 
+    transition:.33s linear;
+    animation: initial;
+    cursor:grab;
+} 
+.manu ul li:last-child a{
+     margin-right:0px;
+}
+.manu ul li a:hover{
+     border-bottom: solid 1px;
+     color: :#626262 ;
+   
+}
+
+/*banner start---------*/
+.banner{
+    /*border: 1px solid;*/
+}
+.b_img{}
+
+/*Article start--------*/
+.article{
+    padding:100px 0 30px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /*border: 1px solid;*/
+    overflow: hidden;
+}
+.a_content{}
+.c_light{
+    margin-top: 30px;
+   font-family:Ubuntu-Light.ttf ;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 24px 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin :0 0 40px 0;
+    line-height: 26px;
+}
+.c_link{
+    margin: 0;
+    font-family:Ubuntu-Light.ttf ;
+    font-size: 14px;
+    color:#626262 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/*Article end----------*/
+
+/*blog start ------------t*/
+.blog {
+    padding: 0 0 70px;
+}
+.s_blog{
+    margin-top: 70px;
+    box-sizing: border-box;
+    float: left;
+    width:47%;;
+    /*border: 1px solid;*/
+}
+.s_blog:nth-child(even){
+  margin-left:6%; }
+/*blog end ------------t*/
+
+
+/*news start*/
+.news{
+ padding: 50px 0;
+ background-color:#f0f0f0 ;
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: #333333;
+}
+.s_from {
+    position: relative;
+    width: 400px;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+}
+.s_from input {
+    font-family: "Playfair Display", serif;
+    color: #626262;
+    font-size:14px ;
+    font-weight: 400;
+    width: 380px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+} 
+.s_from input:focus{ 
+    outline:0 
+}
+.s_from button {
+    position: absolute;
+    background: transparent ;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_from button:focus{
+    outline:0;
+}
+
+ 
+/*news end*/
+
+
+}
+.blog2{
+    padding: 30px 0 100px;
+}
+
+/*button start*/
+.load{
+    margin:;
+    text-align: center;
+}
+.c_btn{
+    padding: 15px 33px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    border: 2px solid;
+    background-color: white;
+    transition: .33s linear;
+     cursor:grab;
+}
+.c_btn:hover {
+    background-color:#262322 ;
+    color: #b8b2a4;
+}
+/*footer*/
+.footer{
+    padding: 30px 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.pv{
+    float: left;
+    width: 40%;
+}
+.pv ul{
+
+}
+.pv ul li {
+    list-style: none;
+
+}
+.pv ul li a {
+    margin: 0 15px 10px;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    color:#000000 ;
+}
+
+.flw {
+    float: right;
+    width: 40%;
+}
+
+.flw ul { float:right; }
+
+.flw ul li {
+    list-style: none;
+    float: left;
+}
+.flw ul li a {
+    margin:0 15px;
+    display: inline-block;
+}
+.flw ul li:last-child a{
+     margin-right:0px;
+}
